@@ -1031,6 +1031,9 @@ fieldset {
 .top-body {
     position: relative;
     overflow: hidden;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 15px;
+
 }
 .top-body:before {
     content: "";
