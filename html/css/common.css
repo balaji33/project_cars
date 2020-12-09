@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* ---------------- For sticky header: class="float-panel"  ------------------*/
@@ -548,7 +548,7 @@ nav span {
     padding: 10px 12px;
     font-size: 15px;
     border-bottom: 1px solid #ffffff69;
-    color:#000000;
+    color: #000000;
     line-height: 20px;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
@@ -596,13 +596,13 @@ nav span {
     text-align: center;
 }
 
-
 element.style {
 }
 .mfp-close-btn-in .mfp-close {
     color: #fff;
 }
-.product-images button.mfp-close, button.mfp-arrow {
+.product-images button.mfp-close,
+button.mfp-arrow {
     overflow: visible;
     cursor: pointer;
     border: 0;
@@ -616,10 +616,11 @@ element.style {
     right: 73px;
 }
 .product-images {
-    margin: 40px -35px 0px 140px !important; 
+    margin: 40px -35px 0px 140px !important;
 }
 
-.slick-next::before, .slick-prev::before {
+.slick-next::before,
+.slick-prev::before {
     color: #ffffff !important;
 }
 
@@ -652,8 +653,7 @@ a.play-icon.popup-with-zoom-anim img:hover {
 
 /* start state */
 .my-mfp-zoom-in .product-images,
-.my-mfp-zoom-in #contact-us
-{
+.my-mfp-zoom-in #contact-us {
     opacity: 0;
     transition: all 0.2s ease-in-out;
     transform: scale(0.8);
@@ -661,16 +661,14 @@ a.play-icon.popup-with-zoom-anim img:hover {
 
 /* animate in */
 .my-mfp-zoom-in.mfp-ready .product-images,
-.my-mfp-zoom-in.mfp-ready #contact-us
-{
+.my-mfp-zoom-in.mfp-ready #contact-us {
     opacity: 1;
     transform: scale(1);
 }
 
 /* animate out */
 .my-mfp-zoom-in.mfp-removing .product-images,
-.my-mfp-zoom-in.mfp-removing  #contact-us
-{
+.my-mfp-zoom-in.mfp-removing #contact-us {
     transform: scale(0.8);
     opacity: 0;
 }
@@ -822,7 +820,7 @@ button.mfp-arrow {
     overflow: visible;
     cursor: pointer;
     border: 0;
-    background:#ed161e;
+    background: #ed161e;
     -webkit-appearance: none;
     display: block;
     padding: 0;
@@ -835,7 +833,7 @@ button.mfp-arrow {
 #contact-us h5 {
     color: #000;
     margin-bottom: 25px;
-    letter-spacing: .8px;
+    letter-spacing: 0.8px;
 }
 
 button::-moz-focus-inner {
@@ -878,19 +876,24 @@ button::-moz-focus-inner {
     width: 100%;
 }
 
-
 /* .popup-main {
     width: 50%;
     float: left;
 } */
 
-
 /*-------------------contact-popup-------------------*/
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
 
 #contact {
-	background:#F9F9F9;
-    padding:25px;
+    background: #f9f9f9;
+    padding: 25px;
     border-radius: 10px;
 }
 
@@ -913,15 +916,16 @@ button::-moz-focus-inner {
     border-radius: 10px !important;
 }
 
-#contact-us button.mfp-close, button.mfp-arrow {
+#contact-us button.mfp-close,
+button.mfp-arrow {
     right: 196px;
     top: 20px;
 }
 
 #contact h4 {
-	margin:5px 0 15px;
-	display:block;
-	font-size:13px;
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
 }
 
 .slick-prev:before {
@@ -946,70 +950,81 @@ button::-moz-focus-inner {
 }
 
 fieldset {
-	border: medium none !important;
-	margin: 0 0 10px;
-	min-width: 100%;
-	padding: 0;
-	width: 100%;
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
     width: 100%;
     border: 1px solid #00000042;
-    background: #FFF;
+    background: #fff;
     padding: 10px 10px;
     font-size: 16px;
     border-radius: 15px;
 }
 
-#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
-	-webkit-transition:border-color 0.3s ease-in-out;
-	-moz-transition:border-color 0.3s ease-in-out;
-	transition:border-color 0.3s ease-in-out;
-	border:1px solid #AAA;
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
 }
 
 #contact textarea {
-	height:100px;
-	max-width:100%;
-  resize:none;
+    height: 100px;
+    max-width: 100%;
+    resize: none;
 }
 
 #contact button[type="submit"] {
-	cursor:pointer;
-	width:100%;
-	border:none;
+    cursor: pointer;
+    width: 100%;
+    border: none;
     background: #3da53d;
-	color:#FFF;
-	margin:0 0 5px;
-	padding:10px;
-	font-size:15px;
+    color: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
 }
 
 #contact button[type="submit"]:hover {
-	background:#09C;
-	-webkit-transition:background 0.3s ease-in-out;
-	-moz-transition:background 0.3s ease-in-out;
-	transition:background-color 0.3s ease-in-out;
+    background: #09c;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 
-#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
 
-#contact input:focus, #contact textarea:focus {
-	outline:0;
-	border:1px solid #999;
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #999;
 }
 ::-webkit-input-placeholder {
- color:#888;
+    color: #888;
 }
 :-moz-placeholder {
- color:#888;
+    color: #888;
 }
 ::-moz-placeholder {
- color:#888;
+    color: #888;
 }
 :-ms-input-placeholder {
- color:#888;
+    color: #888;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -1031,7 +1046,7 @@ fieldset {
 }
 .top-body img {
     width: 100%;
-    height:185px;
+    height: 185px;
     object-fit: cover;
     border-top-left-radius: 12px;
     border-top-right-radius: 30px;
@@ -1059,7 +1074,7 @@ nav {
 .contact-btn:hover {
     background: transparent !important;
     border: 1px solid #c91a20 !important;
-    transition: .5s;
+    transition: 0.5s;
     color: #c91a20 !important;
 }
 
@@ -1106,7 +1121,7 @@ figure {
 }
 
 .product-brand {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     margin-bottom: 5px;
     font-size: 17px;
 }
@@ -1149,14 +1164,14 @@ figure {
     box-shadow: 0 2px 8px 0 rgb(0 0 0 / 15%);
     font-size: 12px;
     border: 1px solid;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .popup-main a:hover {
     border: 1px solid #4ac2e2;
     background: #4ac2e2;
     color: #fff;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .contact-btn {
@@ -1164,8 +1179,6 @@ figure {
     color: #fff;
     border: 1px solid #c91a20 !important;
 }
-
-
 
 .main-cards-body .container-fluid {
     max-width: 1050px;
@@ -1176,7 +1189,6 @@ figure {
 .details-popup {
     color: #fff;
     margin-left: 35px;
-    
 }
 
 .price-details {
@@ -1197,7 +1209,7 @@ figure {
     margin-top: 15px;
     padding: 25px;
     border-radius: 10px;
-    color: #000
+    color: #000;
 }
 
 .price-details div:nth-child(2):before {
@@ -1260,20 +1272,19 @@ figure {
 }
 
 .footer {
-    background: #F0F7FF;
+    background: #f0f7ff;
 }
-
 
 figure:before {
     position: absolute;
-       right: -152px;
+    right: -152px;
     bottom: -163px;
     width: 285px;
     height: 310px;
     border: 2px solid #fff;
     border-radius: 50%;
     box-shadow: 0 0 0 900px rgb(0 0 0 / 20%);
-    content: '';
+    content: "";
     opacity: 0;
     -webkit-transform: scale3d(0.5, 0.5, 1);
     transform: scale3d(0.5, 0.5, 1);
@@ -1282,7 +1293,7 @@ figure:before {
     transform-origin: 50% 50%;
 }
 
-.content-inner:hover figure:before  {
+.content-inner:hover figure:before {
     opacity: 1;
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
@@ -1311,16 +1322,16 @@ figure:before {
     transform: translate3d(10px, 10px, 0);
 }
 
-.content-inner:hover .hover-effect  {
+.content-inner:hover .hover-effect {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
 
-.content-inner:hover  .top-body img {
+.content-inner:hover .top-body img {
     opacity: 0.6;
     -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0);
 }
 
 .top-header a {
@@ -1336,7 +1347,7 @@ figure:before {
 
 .top-header a:hover {
     color: #fff;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .top-header span {
@@ -1383,7 +1394,7 @@ figure:before {
 
 .social-links a:hover {
     background: #ff0000;
-    transition: .5s;
+    transition: 0.5s;
     color: #fff;
 }
 
@@ -1444,9 +1455,9 @@ figure:before {
     left: -20px;
     background: #ed161e;
     top: 67px;
-} 
+}
 
 .effect-under {
     font-size: 24px;
-    letter-spacing: .8px;
+    letter-spacing: 0.8px;
 }
