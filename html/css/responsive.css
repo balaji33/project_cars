@@ -38,11 +38,75 @@
     .side-menu-nav .main-menu .sub-menu~i {
         padding: 22px 25px;
     }
+
+    .custom-select-trigger {
+        width: 270px;
+    }
+    nav {
+        margin-right: 0px;
+    }
+    .custom-options{
+        z-index: 999;
+    }
+
+    .side-menu-close span {
+        background: #000;
+    }
+    .search-top {
+        text-align: center;
+        border-bottom: none !important;
+        margin-top: 10px;
+    }
+
+    .btn-search {
+        padding: 0;
+        width: 100%;
+        height: 45px;
+     
+    }
+
+    .custom-option {
+        font-weight: 100;
+    }
+
+    .col-md-6.col-sm-12.text-right {
+        text-align: left !important;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .row.align-items-center.justify-content-between {
+        margin-top: 5px;
+    }
+
+    .float-panel {
+        position: fixed !important;
+    }
+
+    .main-cards-body {
+        padding-top: 0px;
+        margin-top: 200px;
+    }
+
+    .top-header a {
+        font-size: 12px;
+    }
+
+    .social-links-top  {
+        display: none;
+    }
+    
 }
+
 
 /*Small devices (landscape phones, less than 768px)*/
 @media only screen and (max-width: 767px) {
-
+    .product-images, #contact-us {
+        padding: 20px;
+        text-align: left;
+        max-width: 80%;
+        color: #fff;
+        margin: 30px 0px 0px 100px;
+    }
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
@@ -53,7 +117,7 @@
     }
 
     .float-panel {
-        padding: 10px 20px 10px 20px !important;
+        padding: 0px 20px 10px 20px !important;
     }
 
     

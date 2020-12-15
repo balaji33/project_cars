@@ -6,28 +6,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!----------------------CSS------------------>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
-        <link type="text/css" rel="stylesheet" href="css/header-animation.css" />
         <link type="text/css" rel="stylesheet" href="css/common.css" />
         <link type="text/css" rel="stylesheet" href="css/responsive.css" />
         <link type="text/css" rel="stylesheet" href="css/animate.css" />
         <link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
         <link type="text/css" rel="stylesheet" href="css/slick.css" />
-        <script src="js/float-panel.js"></script>
         <script src="js/jquery-2.1.4.min.js"></script>
         <script src="https://kit.fontawesome.com/87537384a1.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
-        <header class="float-panel" data-top="0" data-scroll="10">
+        <header class="main-nav">
             <div class="top-header">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <a href="tel:9652963487"><i class="fas fa-phone mr-1"></i>9652963487</a>
                             <a href="mailto:balajichintha33@gmail.com"><i class="fas fa-envelope-open mr-1"></i>balajichintha33@gmail.com</a>
                         </div>
 
-                        <div class="col-md-6 text-right">
+                        <div class="col-md-6 social-links-top col-sm-12 text-right">
                             <span>Social links:</span>
                             <a href="#"><i class="fab fa-facebook"></i></a>
                             <a href="#"><i class="fab fa-instagram-square"></i></a>
@@ -41,101 +39,83 @@
                     <a href="#">
                         <img src="./img/sample-logo.png" alt="img" class="logo-header" />
                     </a>
-                    <nav class="d-none d-lg-block">
-                        <ul class="main-menu d-flex flex-column flex-lg-row align-items-lg-center list-unstyled p-0">
+                    <nav class="right-side-nav d-none d-lg-block">
+                        <ul class="menu-top-bar d-flex flex-column flex-lg-row align-items-lg-center p-0 m-0">
                             <li>
                                 <a href="#" class="d-block">
-                                    <span>
-                                        <div class="center">
-                                            <select name="sources" id="sources" class="custom-select sources" placeholder="Manufacturer">
-                                                <option>Honda</option>
-                                                <option>Honda</option>
-                                                <option>Honda</option>
-                                            </select>
-                                        </div>
-                                    </span>
+                                    <div class="center">
+                                        <select name="sources" id="sources" class="custom-select sources" placeholder="Manufacturer">
+                                            <option>Honda</option>
+                                            <option>Honda</option>
+                                            <option>Honda</option>
+                                        </select>
+                                    </div>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="#" class="d-block">
-                                    <span>
-                                        <div class="center">
-                                            <select name="sources" id="sources" class="custom-select sources" placeholder="Model">
-                                                <option>i10</option>
-                                                <option>i20</option>
-                                                <option>i30</option>
-                                            </select>
-                                        </div>
-                                    </span>
+                                    <div class="center">
+                                        <select name="sources" id="sources" class="custom-select sources" placeholder="Model">
+                                            <option>i10</option>
+                                            <option>i20</option>
+                                            <option>i30</option>
+                                        </select>
+                                    </div>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="#" class="d-block">
-                                    <span>
-                                        <div class="center">
-                                            <select name="sources" id="sources" class="custom-select sources" placeholder="Year">
-                                                <option>2020</option>
-                                                <option>2019</option>
-                                                <option>2018</option>
-                                            </select>
-                                        </div>
-                                    </span>
+                                    <div class="center">
+                                        <select name="sources" id="sources" class="custom-select sources" placeholder="Year">
+                                            <option>2020</option>
+                                            <option>2019</option>
+                                            <option>2018</option>
+                                        </select>
+                                    </div>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="#" class="d-block">
-                                    <span>
-                                        <div class="center">
-                                            <select name="sources" id="sources" class="custom-select sources" placeholder="Location">
-                                                <option>hyderabad</option>
-                                                <option>vizag</option>
-                                                <option>banglore</option>
-                                            </select>
-                                        </div>
-                                    </span>
+                                    <div class="center">
+                                        <select name="sources" id="sources" class="custom-select sources" placeholder="Location">
+                                            <option>hyderabad</option>
+                                            <option>vizag</option>
+                                            <option>banglore</option>
+                                        </select>
+                                    </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="d-block">
-                                    <span>
-                                        <div class="center">
-                                            <select name="sources" id="sources" class="custom-select sources" placeholder="Price range">
-                                                <option>Low to high</option>
-                                                <option>High to low</option>
-                                            </select>
-                                        </div>
-                                    </span>
+                                    <div class="center">
+                                        <select name="sources" id="sources" class="custom-select sources" placeholder="Price range">
+                                            <option>Low to high</option>
+                                            <option>High to low</option>
+                                        </select>
+                                    </div>
                                 </a>
                             </li>
-                            <li>
+                            <li class="search-top">
                                 <input type="submit" value="Search" class="btn-search" />
                             </li>
                         </ul>
                     </nav>
-                    <div class="side-menu-close d-flex d-lg-none flex-wrap flex-column align-items-center justify-content-center ml-auto">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <div class="mobile-menu-close d-flex d-lg-none flex-wrap flex-column align-items-center justify-content-center ml-auto">
+                        <div>filters</div>
                     </div>
                 </div>
             </div>
         </header>
 
-        <!-- side menu start -->
-        <div class="side-menu-wrap">
-            <nav class="side-menu-nav">
-                <!-- auto generated side menu from top header menu -->
-            </nav>
-            <div class="side-menu-close d-flex flex-wrap flex-column align-items-center justify-content-center">
-                <span></span>
-                <span></span>
-                <span></span>
+        <div class="mobile-menu">
+            <nav class="mobile-navbar"></nav>
+            <div class="mobile-menu-close d-flex flex-wrap flex-column align-items-center justify-content-center">
+                <i class="far fa-times-circle"></i>
             </div>
         </div>
-        <!-- side menu end -->
 
         <div class="main-cards-body">
             <div class="cards-inner container-fluid">
@@ -733,13 +713,10 @@
             <p>&copy; BALAJI</p>
         </div>
 
-        <script src="js/jquery-smoothscroll.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/fontawesome.js"></script>
         <script src="js/main.js"></script>
-        <!-- <script src="js/jquery-3.2.1.slim.min.js"></script>
-        <script src="js/popper.min.js"></script> -->
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/slick.min.js"></script>
     </body>
